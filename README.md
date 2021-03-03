@@ -1,5 +1,5 @@
 # Eventive
-A Web Application for College Event Management System
+A Web Application for College Event Management System with some novel features in it.
 
 I have used: 
 Backend: Java - Tomcat Server 
