@@ -1,0 +1,304 @@
+
+
+.topnav {
+    overflow: hidden;
+    background-color:#1d048a;
+    background-image: url("black.jpg");
+  }
+  
+  .topnav a {
+    float: right;
+    color: #eba352;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav b {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #b80770;
+    color: #eba352;
+  }
+  
+  .topnav a.active {
+    background-color: #b80770;
+    color: #eba352;
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+   
+  }
+  
+  .centertxt {
+    position: absolute;
+    top: 440px;
+    left: 160px;
+    color: #00000e;
+    text-align: center;
+    font-size: 18px;
+   
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 620px;
+    overflow: hidden;
+    background-image: url("white.jpg");/* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #f1f1f1;
+  }
+
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn{
+    width: 100%;
+  }
+}
+
+
+.form_comp{
+    padding-bottom: 20px;
+    margin-bottom: 10px;   
+    margin-top: 0px;
+}
+
+.form_comp label {
+	display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #2C2837;
+    background-color: white ;
+    
+}
+
+.form_comp input {
+	border: 0px solid gray;
+    border-radius: 4px;
+    color: #171A1F;
+    background-color: #e9e6e6;
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 10px;
+    width: 80%;
+}
+
+select {
+	border: 0px solid gray;
+    border-radius: 4px;
+    color: #171A1F;
+    background-color: #e9e6e6;
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 10px;
+    width: 50%;
+}
+
+#batch {
+	width: 25%;
+}
+
+.button{
+    /* padding-left: 20px;
+    padding-bottom: 20px; */
+    width: 80%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    background-color: #00b241;
+    /* border-radius: 5px; */
+    color: black;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.button:hover{
+    box-shadow: 0px 5px 16px #397946;
+    
+}
+.dbu{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #FB4C51;
+}
+.form_comp div.first_row_icon {
+	/* visibility: hidden; */
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+    margin-left: 310px;
+    margin-top: -30px;
+}
+
+.form_comp div.second_row_icon {
+	/* visibility: hidden; */
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+    margin-left: 310px;
+    margin-top: -30px;
+}
+
+.form_comp i {
+	visibility: hidden;
+	position: absolute;
+	/* top: 40px;
+    right: 100px; */
+    margin-left: 30px;
+}
+
+.form_comp select{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    border: 0px solid gray;
+    background-color: #e9e6e6;
+    padding: 7px;
+    
+}
+
+.form_comp small {
+	color: #e74c3c;
+	bottom: 0;
+	left: 0;
+    visibility: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.form_comp.error small {
+	visibility: visible;
+}
+
+/* .form_comp.success input {
+	border-color: #2ecc71;
+}
+
+.form_comp.error input {
+    border: 2px solid transparent;
+	border-color: #e74c3c;
+}
+
+.form_comp.success select {
+    border: 2px solid transparent;
+    border-color: #2ecc71;
+    
+}
+
+.form_comp.error select {
+    border: 2px solid transparent;
+    border-color: #e74c3c;
+    
+} */
+
+.form_comp.success i.fa-check-square{
+	color: #2ecc71;
+	/* visibility: visible; */
+}
+
+.form_comp.error i.fa-window-close {
+	color: #e74c3c;
+	/* visibility: visible; */
+}
